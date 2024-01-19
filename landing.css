@@ -6,12 +6,16 @@ body{
 img {
     display: block;
     justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
     /* margin-left: 9%; */
 }
 
 .parents{
    display: grid;
-   grid-template-columns: repeat(3,1fr);
+   grid-template-columns: repeat(5,1fr);
    align-items: center;
     /* border: 1px solid black; */
     gap: 30px;
@@ -20,13 +24,14 @@ img {
 .cards{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: black;
     color: white;
     /* display: flex;
     justify-content: center;
     align-items: center; */
-    padding: 8%;
+    padding-top: 18%;
 
 }
 
