@@ -1,6 +1,6 @@
 body{
     height: 100vh;
-    background-color: black;
+    background-color: #f7f7f7;
 }
 
 .container{
@@ -45,7 +45,8 @@ img {
     justify-content: center;
     align-items: center;
     background-color: white;
-    border-radius: 50% 20%;
+    border-radius: 1rem;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2);
     color: black;
     /* display: flex;
     justify-content: center;
@@ -55,10 +56,16 @@ img {
 }
 
 a{
-    color: aliceblue;
-    padding: 2%;
-    background-color: black;
-    border-radius: 25%;
+    color: #fff;
+    padding: .5rem;
+    background-color: skyblue;
+    margin: 1rem;
+    text-decoration: none;
+    border-radius: .5rem;
+}
+
+i{
+    margin: .5rem;
 }
 
 
@@ -72,5 +79,5 @@ a{
 }
 
 @media screen and (max-width: 600px) {
-
+   
 }
